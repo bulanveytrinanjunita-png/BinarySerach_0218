@@ -113,6 +113,13 @@ void binarySearch()
             cout << "\nIngin mencari lagi? (y/n): ";
             cin >> ulang;
         }
+    } while (ulang == 'y' || ulang == 'Y')
+}
 
-    } while (ulang == 'y' || ulang == 'y')
+int main()
+{
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
 }
